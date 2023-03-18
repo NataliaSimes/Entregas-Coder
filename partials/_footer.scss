@@ -1,0 +1,14 @@
+.footer {
+  height: 60px;
+  width: 100%;
+  background-color: $maincolor;
+  position: absolute;
+  bottom: 0;
+
+  .footer p {
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}

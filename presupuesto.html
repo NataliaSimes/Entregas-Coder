@@ -10,7 +10,8 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header class="container-fluid bg-warning d-flex justify-content-center">
@@ -65,43 +66,88 @@
                 >
               </li>
             </ul>
-            
+        
           </div>
         </div>
       </nav>
     </header>
     
+    <section class="container-fluid">
     <div class="container">
-      <h1>Nosotros</h1>
+        <h1>Presupuesto</h1>
+        <hr>
+        <p class="mt-3">Para poder valorar una propuesta de Ecommerce le agradeceríamos que rellenara el siguiente formulario con el mayor detalle posible. Tras la recepción de la solicitud un consultor especializado en Ecommerce se pondrá en contacto con usted.
+        </p>
+        <hr>
+      <form class="row g-3 mt-3">
+        <div class="col-6">
+          <label for="nombreimput" class="form-label"
+            >Nombre y Apellido *</label
+          >
+          <input
+            type="Nombreyapellido"
+            class="form-control"
+            name=""
+            id="nombreimput"
+            placeholder="Ingresa tu Nombre y Apellido"
+          />
+        </div>
+        <div class="col-6">
+          <label for="emailimput" class="form-label">Email *</label>
+          <input
+            type="Email"
+            class="form-control"
+            name=""
+            id="emailimput"
+            placeholder="Ingresa tu email"
+          />
+        </div>
+        <div class="col-6">
+          <label for="telefonoimput" class="form-label">Telefono *</label>
+          <input
+            type="Telefono"
+            class="form-control"
+            name=""
+            id="telefonoimput"
+            placeholder="Ingresa tu Telefono"
+          />
+        </div>
+        <div class="col-6">
+          <label for="empresaimput" class="form-label">Empresa *</label>
+          <input
+            type="Empresa"
+            class="form-control"
+            name=""
+            id="empresaimput"
+            placeholder="Ingresa tu Empresa"
+          />
+        </div>
+        <div class="col-6">
+            <label for="sitioimput" class="form-label">Sitio Web </label>
+            <input
+              type="Sitio Web"
+              class="form-control"
+              name=""
+              id="sitioimput"
+              placeholder="Ingresa tu Sitio Web"
+            />
+          </div>
+        <div class="col-12">
+          <label for="descripcionimput" class="form-label">Descripcion *</label>
+          <input
+            type="Descripcion"
+            class="form-control"
+            name=""
+            id="descripcionimput"
+            placeholder="Contanos sobre tu proyecto"
+          />
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-warning">Enviar</button>
+      </form>
     </div>
-    <section class="w-75 mx-auto text-center pt-5">
-      <h2 class="p-3 fs-4 border-top border-3">
-        18 años dedicados al mundo online
-      </h3>
-      <h3 class="p-3 fs-4 border-top border-3">
-        Fundada en el año 2002, somos expertos en eCommerce, con más de 18 años
-        acompañando a tiendas y marcas en el desarrollo de sus canales
-        digitales. Somos Partner Cerfiticado de VTEX desde el año 2015 (Primer
-        Partner Certificado en el interior del país). En el año 2020 /2021
-        logramos el reconocimiento dentro del Quadrante de Partners VTEX a las
-        agencias mejor valoradas de Latam. Nuestro foco está orientado a la
-        implementación y soporte de tiendas potenciadas por VTEX y Magento.
-        Contamos con experiencia en distintas arquitecturas como B2C, B2B,
-        Franquicias / White Label, Marketplace, entre otras. Ofrecemos
-        soluciones eficaces y orientadas a cada necesidad de negocio de nuestros
-        clientes. Contamos con oficinas en Córdoba y Mar del Plata trabajando
-        con marcas y tiendas en todo el país y Latinoamérica.
-      </h3>
-      <hr />
-      <h4>El Equipo</h4>
-      <hr />
-      <div>
-        <img class="imagen-equipo" src="imagenes/equipo.jpeg" class="d-block w-100" alt="kudosteam" />
-      </div>
-    </section>
-    <footer
-      class="w-100 d-flex justify-content-center flex-wrap bg-warning mt-5"
-    >
+  </section>
+    <footer class="footer">
       <p class="fs-5 px-3 pt-3">
         © 2023 Kudos Estudio | Todos los derechos reservados | kudosestudio.com
       </p>

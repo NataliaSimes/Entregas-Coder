@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  height: 60px;
+  width: 100%;
+  background-color: #ffc107;
+  position: absolute;
+  bottom: 0;
+}
+.footer p {
+  font-size: 14px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.imagen-cliente:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+.imagen-equipo {
+  opacity: 50%;
+  width: 100%;
+}
+.imagen-equipo:hover {
+  opacity: 100%;
+}
+*::selection {
+  background-color: #ffc107;
+  color: aliceblue;
+}
+
+*::-webkit-scrollbar {
+  width: 17px;
+}
+*::-webkit-scrollbar-track {
+  border: 5px solid #ffffff;
+  box-shadow: inset 0 0 2.5px 2px rgb(0, 0, 0, 0.5);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #000000, #686565);
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    height: auto;
+  }
+}

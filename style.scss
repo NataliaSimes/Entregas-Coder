@@ -1,0 +1,9 @@
+@import "partials/variables";
+@import "partials/reset";
+@import "partials/footer";
+@import "partials/body";
+@media screen and (max-width: 768px) {
+  .footer {
+    height: auto;
+  }
+}
